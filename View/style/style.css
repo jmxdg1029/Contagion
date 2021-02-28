@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+P{
+    position: relative;
+}
+
+
+.desc{
+    position: flex;
+    margin-top: 5%;
+    animation: fadeIn ease 3s;
+}
+
+
+.desc h3{
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 3.5em;
+}
+
+.desc p{
+    position: relative;
+    font-size: 1.6em;
+    margin-bottom:3.5%;
+}
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
